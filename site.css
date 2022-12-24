@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: red;
+}
+
+header * {
+  font-family: 'Unbounded',
+    cursive;
+}
+
+header {
+  background-color: #fe7838;
+  border-bottom: 2px solid #000;
+}
+
+nav {
+  min-width: 100px;
+  min-height: 100px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  height: 100%;
+  position: relative;
+  top: -14px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 15px;
+  position: relative;
+  top: calc(50% - 19px);
+}
+
+nav a:focus,
+nav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+header img {
+  width: 100px;
+  margin: 14px 10px;
+}
+
+header .container {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.sign_in {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 25px 10px;
+  border-radius: 10px;
+  position: relative;
+  top: calc(50% - 33px);
+  margin-right: 10px;
+}
+
+main {
+  background: linear-gradient(90deg, #f7c96b, #fca482);
+  min-height: 100px;
+  position: relative;
+}
+
+main .container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+article {
+  width: calc(100% - 200px);
+}
+
+aside {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  top: 0;
+}
+
+#search {
+  background: transparent;
+  border: 1px solid #000;
+  margin: 10px;
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+
+#search::placeholder {
+  color: #000;
+}
+
+article {
+  height: 170px;
+  padding: 10px 20px;
+}
+
+article img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  float: right;
+}
+
+.article_content {
+  display: inline-block;
+  width: calc(100% - 190px);
+}
+
+.text {
+  height: 90px;
+  overflow: hidden;
+}
+
+.divider {
+  border-bottom: 1px solid #000;
+}
+
+.header_top {
+  text-align: center;
+  padding: 60px 10px 30px 10px;
+}
+
+.header_top a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background: #000;
+  padding: 20px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+main .container {
+  position: relative;
+}
+
+body {
+  background: linear-gradient(90deg, #f7c96b, #fca482);
+  min-height: calc(100vh - 132px);
+}
+
+.newArticle_form {
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.newArticle_form #heading,
+.newArticle_form textarea {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+
+.newArticle_form h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.newArticle_form label {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.newArticle_form #submit {
+  color: white;
+  background: #000;
+  font-size: 15px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}

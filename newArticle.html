@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write new article</title>
+  <link rel="stylesheet" href="site.css">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="./imgs/book-black.png" alt="logo image" />
+      <nav>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Write</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button type="button" class="sign_in">Sign in</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <form class="newArticle_form">
+        <h1>New Article</h1>
+        <input type="text" name="heading" placeholder="Heading" id="heading" />
+        <br>
+        <textarea placeholder="Description" name="description" id="description" cols="30" rows="10"></textarea>
+        <br>
+        <label for="image">Upload image</label>
+        <br>
+        <input type="file" id="image" name="image" />
+        <br>
+        <input id="submit" type="submit" value="Send" />
+      </form>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
+</html>
